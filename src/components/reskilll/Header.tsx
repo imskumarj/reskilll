@@ -1,6 +1,14 @@
+
 import React from "react";
 
 const Header = () => {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="flex w-full max-w-[1176px] items-center gap-5 text-xl font-medium justify-between max-md:max-w-full">
       <img
@@ -15,19 +23,30 @@ const Header = () => {
             className="aspect-[1] object-contain w-5 self-stretch shrink-0 my-auto"
             alt="Search Icon"
           />
-          <div className="self-stretch my-auto">
-            Search events and opportunities
-          </div>
+          <input
+            type="text"
+            placeholder="Search events and opportunities"
+            className="self-stretch my-auto bg-transparent border-none outline-none text-white w-full"
+          />
         </div>
       </div>
       <div className="self-stretch flex items-center gap-10 text-white justify-center flex-wrap p-2.5 max-md:max-w-full">
-        <div className="self-stretch my-auto cursor-pointer hover:opacity-80">
+        <div 
+          className="self-stretch my-auto cursor-pointer hover:opacity-80"
+          onClick={() => scrollToSection('current-events')}
+        >
           Events
         </div>
-        <div className="self-stretch my-auto cursor-pointer hover:opacity-80">
+        <div 
+          className="self-stretch my-auto cursor-pointer hover:opacity-80"
+          onClick={() => scrollToSection('community-section')}
+        >
           Community
         </div>
-        <div className="self-stretch my-auto cursor-pointer hover:opacity-80">
+        <div 
+          className="self-stretch my-auto cursor-pointer hover:opacity-80"
+          onClick={() => scrollToSection('testimonials')}
+        >
           Partners
         </div>
         <div className="self-stretch bg-[linear-gradient(214deg,#FFF_6.04%,#FFA500_92.95%)] gap-2.5 text-black font-bold my-auto px-5 py-2.5 rounded-[10px] cursor-pointer hover:opacity-90">

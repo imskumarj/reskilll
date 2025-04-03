@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const Initiatives = () => {
@@ -41,7 +42,7 @@ const Initiatives = () => {
                 succeed.
                 <br />
               </div>
-              <div className="self-stretch gap-2.5 text-xl text-black font-bold px-5 py-2.5 rounded-[10px] cursor-pointer">
+              <div className="self-stretch bg-[linear-gradient(89deg,#00FF00_41.69%,#FFF_96.13%)] gap-2.5 text-xl text-black font-bold px-5 py-2.5 rounded-[10px] cursor-pointer hover:opacity-90 text-center mt-4">
                 Learn more
               </div>
               <div className="relative flex items-center gap-2 justify-center mt-[21px] px-3 py-2 rounded-[50px]">

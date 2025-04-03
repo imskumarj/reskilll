@@ -1,9 +1,10 @@
+
 import React from "react";
 import EventCard from "./EventCard";
 
 const CurrentEvents = () => {
   return (
-    <section className="w-full flex flex-col items-center">
+    <section id="current-events" className="w-full flex flex-col items-center">
       <div className="text-white text-[40px] font-bold text-center mt-[73px] max-md:mt-10">
         Our <span className="text-[rgba(255,0,0,1)]">Current Events</span>
       </div>

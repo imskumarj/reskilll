@@ -1,3 +1,4 @@
+
 import React from "react";
 import HackathonCard from "./HackathonCard";
 
@@ -41,7 +42,7 @@ const HackathonsSection = () => {
           </div>
         </div>
       </div>
-      <div className="self-stretch border w-[337px] max-w-full gap-2.5 text-xl text-[rgba(0,122,255,1)] font-medium mt-12 px-5 py-2.5 rounded-[10px] border-[rgba(0,122,255,1)] border-solid max-md:mt-10 text-center cursor-pointer hover:opacity-80">
+      <div className="border w-[337px] max-w-full gap-2.5 text-xl text-[rgba(0,122,255,1)] font-medium mt-12 px-5 py-2.5 rounded-[10px] border-[rgba(0,122,255,1)] border-solid max-md:mt-10 text-center cursor-pointer hover:opacity-80 mx-auto">
         Explore all Hackathons
       </div>
     </section>

@@ -3,7 +3,7 @@ import StatCard from "./StatCard";
 
 const CommunitySection = () => {
   return (
-    <section className="w-full flex flex-col items-center">
+    <section id="community-section" className="w-full flex flex-col items-center">
       <div className="text-white text-center text-xl font-medium mt-[84px] max-md:mt-10">
         Our Community
       </div>
@@ -75,7 +75,7 @@ const CommunitySection = () => {
         community and learn about various upcoming initiatives and
         opportunities.
       </div>
-      <div className="self-stretch border border-[color:var(--Colors-Yellow,#FC0)] w-[337px] max-w-full gap-2.5 text-xl text-[#ffcc00] font-medium mt-[21px] px-5 py-2.5 rounded-[10px] border-solid text-center cursor-pointer hover:opacity-80">
+      <div className="border border-[color:var(--Colors-Yellow,#FC0)] w-[337px] max-w-full gap-2.5 text-xl text-[#ffcc00] font-medium mt-[21px] px-5 py-2.5 rounded-[10px] border-solid text-center cursor-pointer hover:opacity-80 mx-auto">
         Join Our Community
       </div>
     </section>

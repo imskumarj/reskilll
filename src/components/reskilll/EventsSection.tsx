@@ -63,8 +63,8 @@ const EventsSection = () => {
           Click for More
         </div>
       </div>
-      <div className="justify-center items-center border border-[color:var(--Button-Reskilll,#FFF)] z-10 flex mt-[-50px] w-[337px] max-w-full gap-2.5 text-xl font-medium px-5 py-2.5 rounded-[10px] border-solid cursor-pointer hover:opacity-80">
-        <div className="bg-clip-text bg-[linear-gradient(214deg,#FFF_6.04%,#FFA500_92.95%)] self-stretch my-auto">
+      <div className="justify-center items-center border border-[color:var(--Button-Reskilll,#FFF)] z-10 flex mt-[-50px] w-[337px] max-w-full gap-2.5 text-xl font-bold px-5 py-2.5 rounded-[10px] border-solid cursor-pointer hover:opacity-80">
+        <div className="bg-clip-text bg-[linear-gradient(214deg,#FFF_6.04%,#FFA500_92.95%)] text-[#ffcc00] self-stretch my-auto">
           Click for More
         </div>
       </div>
