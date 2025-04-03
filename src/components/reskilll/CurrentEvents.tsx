@@ -17,7 +17,7 @@ const CurrentEvents = () => {
               title="EVENT NAME"
               location="Microsoft Gurugram"
               buttonText="Register Now"
-              buttonGradient="linear-gradient(89deg,#F00_41.69%,#FFF_96.13%)"
+              buttonGradient="linear-gradient(89deg,#F00 41.69%,#FFF 96.13%)"
             />
           </div>
           <div className="w-[33%] ml-5 max-md:w-full max-md:ml-0">
@@ -27,7 +27,7 @@ const CurrentEvents = () => {
               title="EVENT NAME"
               location="Microsoft Gurugram"
               buttonText="Register Now"
-              buttonGradient="linear-gradient(89deg,#F00_41.69%,#FFF_96.13%)"
+              buttonGradient="linear-gradient(89deg,#F00 41.69%,#FFF 96.13%)"
             />
           </div>
           <div className="w-[33%] ml-5 max-md:w-full max-md:ml-0">
@@ -37,7 +37,7 @@ const CurrentEvents = () => {
               title="EVENT NAME"
               location="Microsoft Gurugram"
               buttonText="Register Now"
-              buttonGradient="linear-gradient(89deg,#F00_41.69%,#FFF_96.13%)"
+              buttonGradient="linear-gradient(89deg,#F00 41.69%,#FFF 96.13%)"
             />
           </div>
         </div>

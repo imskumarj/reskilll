@@ -1,3 +1,4 @@
+
 import React from "react";
 
 interface EventCardProps {
@@ -34,7 +35,8 @@ const EventCard: React.FC<EventCardProps> = ({
         </div>
       </div>
       <div
-        className={`self-stretch bg-[${buttonGradient}] gap-2.5 text-xl text-black font-bold mt-[21px] px-5 py-2.5 rounded-[10px] text-center cursor-pointer hover:opacity-90`}
+        style={{ background: buttonGradient.replace(/_/g, ' ') }}
+        className="self-stretch gap-2.5 text-xl text-black font-bold mt-[21px] px-5 py-2.5 rounded-[10px] text-center cursor-pointer hover:opacity-90"
       >
         {buttonText}
       </div>
